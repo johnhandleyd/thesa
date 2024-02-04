@@ -26,7 +26,7 @@ Due to lack of computational resources, Thesa has been trained on Google Colab P
 ## How to use
 The resulting fine-tuned model is hosted in HuggingFace at [johnhandleyd/thesa](https://huggingface.co/johnhandleyd/thesa).
 
-You can test if by opening the Jupyter Notebook and refering to the "Inference with some samples" section.
+You can test it by opening the Jupyter Notebook and refering to the "Inference with some samples" section.
 
 ## Results
 If you want to see some quick samples, check out `results.md`.
