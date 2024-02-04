@@ -1,4 +1,4 @@
-# Thesa: A Therapy Chatbot
+# Thesa: A Therapy Chatbot 👩🏻‍⚕️
 Thesa is an experimental project of a therapy chatbot trained on mental health data and fine-tuned with the Zephyr GPTQ model that uses quantization to decrease high computatinal and storage costs.
 
 ## Table of Contents
