@@ -1,0 +1,11 @@
+# test file
+__pycache__
+.conda
+test
+test.py
+test_utils.py
+thesa.ipynb
+data/cleaned_cc.json
+data/og_cc.json
+results.md
+data/inference_questions.py

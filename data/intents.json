@@ -47,7 +47,7 @@
         "patterns": ["Who created you?", "How were you made?", "How were you created?"],
         "responses": ["I was created by John Handley.", "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques", "The real question is: Who created you?"]
     },
-    {"tag": "Your patient is asking about your name",
+    {"tag": "Your patient is telling you their name",
         "patterns": ["My name is Ana", "I am Josh.", "I go by Farah"],
         "responses": ["Oh nice to meet you. Tell me how was your week?", "Nice to meet you. So tell me. How do you feel today?", "That's a great name. Tell me more about yourself."]
     },
