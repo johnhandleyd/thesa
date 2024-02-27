@@ -18,13 +18,14 @@ finetuned_model = FineTune(
             )
 
 # finetune model
-finetuned_model.finetune(output="thesa")
+finetuned_model.finetune(output="/thesa",
+                         epochs=10)
 
 # inference
 checkpoint_thesa = "johnhandleyd/thesa"
-tokenizer = AutoTokenizer.from_pretrained(checkpoint_thesa)
+tokenizer_thesa = AutoTokenizer.from_pretrained(checkpoint_thesa)
 
 example = "I've been feeling depressed lately. Can you help me?"
 
-sample = InferFromModel(model=checkpoint_thesa, tokenizer=tokenizer)
-print(sample.infer(example=example, temp = 0.7, max_tokens=64))
+sample = InferFromModel(model=checkpoint_thesa, tokenizer=tokenizer_thesa)
+print(sample.infer(example=example))

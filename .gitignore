@@ -9,3 +9,5 @@ data/cleaned_cc.json
 data/og_cc.json
 results.md
 data/inference_questions.py
+huggingface/*
+commands.txt
